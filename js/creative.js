@@ -61,5 +61,14 @@
         }
     });
 
+    // MapBox
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYnJlbmRhZGhrIiwiYSI6ImNqNTVnZGJ3MTBjbTIzM25zY3l1NXRiYm8ifQ.dle1xcJ61wnxSUOMN10_Uw';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9', //stylesheet location
+   center: [-74.50, 40], // starting position
+   zoom: 9 //
+    });
+
 
 })(jQuery); // End of use strict
