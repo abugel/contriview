@@ -61,4 +61,38 @@
         }
     });
 
+/*
+    new webpack.DefinePlugin({
+      __CLIENT__: true
+      // Other global variables
+    }),
+
+
+    let mapboxGl;
+if (__CLIENT__) {
+  mapboxGl = require('mapbox-gl')
+}
+
+
+
+var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiYnJlbmRhZGhrIiwiYSI6ImNqNTVnZGJ3MTBjbTIzM25zY3l1NXRiYm8ifQ.dle1xcJ61wnxSUOMN10_Uw';
+var map = new mapboxgl.Map({
+container: 'usaMap',
+style: 'mapbox://styles/mapbox/dark-v9'
+});
+
+var draw = mapboxgl.Draw({
+  displayControlsDefault: false,
+  controls: {
+    'point': true,
+    'trash': true
+  }
+});
+*/
+
+
+
+
 })(jQuery); // End of use strict
